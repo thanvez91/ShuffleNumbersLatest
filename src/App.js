@@ -3,7 +3,7 @@ import style from "./styles.css";
 
 export default function App() {
   return (
-    <div className="boxColoursWrapper">
+    <div className="boxColoursWrapper" data-testid="test-abc">
       <GridSystem />
     </div>
   );
@@ -53,7 +53,7 @@ export const GridSystem = () => {
   const [shuffleFlag, setShuffle] = useState(false);
 
   return (
-    <div>
+    <div data-testid="grid-system">
       <div className="gridWrapper">
         {dabba
           .sort((a, b) => {
@@ -94,3 +94,4 @@ export const GridSystem = () => {
     </div>
   );
 };
+
