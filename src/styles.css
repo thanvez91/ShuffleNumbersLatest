@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.boxColoursWrapper {
+  width: 700px;
+}
+
+.gridWrapper {
+  width: 450px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: monospace;
+}
+
+.boxColours {
+  height: 150px;
+  width: 150px;
+  background-color: #6f98a8;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.boxColours h1 {
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 40%;
+}
+
+.buttonsWrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.red {
+  background-color: #333333;
+}
+
+.grey {
+  background-color: #efefef;
+}
+
+.buttonsWrapper > input {
+  background-color: #6f98a8;
+  border: none;
+  padding: 15px;
+  color: white;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.buttonsWrapper {
+  margin-left: 10px;
+}
